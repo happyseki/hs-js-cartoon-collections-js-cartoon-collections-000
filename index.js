@@ -19,7 +19,7 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 function longPlaneteerCalls(words) {
-  if(words.length>3){
+  if(words.length>4){
     return true;
   }
   return false;
