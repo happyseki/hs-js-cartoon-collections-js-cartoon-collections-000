@@ -1,14 +1,13 @@
-var dwarves=["Doc", "Dopey", "Bashful", "Grumpy"];
 function dwarfRollCall(dwarves) {
-  var arr=[];
+  var str = "";
   for(var i=0; i<dwarves.length; i++){
-    var string = `${i+1}. ${dwarves[i]} `;
-    arr.push(string);
+    
+  str += (i+1).toString() + ". " + dwarves[i] + " ";
+   
   }
-  return arr.join('');
+  return str;
 }
 
-var planeteerCalls = ["earth", "wind", "fire", "water", "heart"];
 function summonCaptainPlanet(planeteerCalls){
    var arr=[];
   for(var i=0; i<planeteerCalls.length; i++){
